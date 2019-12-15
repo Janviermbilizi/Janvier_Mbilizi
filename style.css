@@ -12,10 +12,15 @@ body {
 .gree-box {
   background-color: teal;
   height: 110px;
-  width: 25%;
-  padding-top: 40px;
+  width: 300px;
+  padding-top: 32px;
   text-align: center;
   font-size: 200%;
+}
+.gree-box a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /* .custom-height {
@@ -176,11 +181,9 @@ img {
     width: 100%;
     margin-left: 0;
     font-size: 250%;
-    padding-top: 22px;
   }
   .navbar-stuff {
     text-align: center;
-    padding-bottom: 20px;
   }
 }
 
@@ -189,25 +192,34 @@ img {
     width: 100%;
     margin-left: 0;
     font-size: 250%;
-    padding-top: 22px;
   }
   .navbar-stuff {
     text-align: center;
     padding-bottom: 20px;
   }
 }
+
 @media only screen and (max-width: 640px) {
   .gree-box {
     width: 100%;
     margin-left: 0;
     font-size: 250%;
-    padding-top: 22px;
   }
   .navbar-stuff {
     text-align: center;
-    padding-bottom: 20px;
   }
   #profil {
     width: 110%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #container {
+    margin-left: 27px;
+  }
+  #container2 {
+    margin-left: 27px;
+  }
+  form {
+    margin-left: 27px;
   }
 }
