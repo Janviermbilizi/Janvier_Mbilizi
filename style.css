@@ -1,9 +1,9 @@
 /*body's style */
+
 * {
   margin: 0;
   padding: 0;
 }
-
 body {
   background: #efefef;
   width: 100%;
@@ -24,6 +24,149 @@ body {
 
 .navbar-stuff {
   padding-top: 40px;
+}
+
+/* The container of Index.html and contact.html's style */
+#container {
+  background: #ffffff;
+  width: 60%;
+  margin: auto;
+  padding: 40px;
+  margin-bottom: 9%;
+  border-color: #dddddd;
+  margin-top: 50px;
+}
+#profil {
+  width: 180px;
+  height: 220px;
+  float: left;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+#Bio {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+p {
+  color: gray;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The style for all the head title, About ME, Contact and Portfolio*/
+
+#title {
+  width: 100%;
+  height: 60px;
+  line-height: 40px;
+  color: teal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-bottom: 2px solid #d3cece;
+}
+/* styles for the contact form and everything inside the form*/
+form {
+  background: #ffffff;
+  width: 60%;
+  margin: auto;
+  padding: 40px;
+  margin-bottom: 11.5%;
+  border-color: #dddddd;
+  margin-top: 50px;
+}
+#name {
+  width: 100%;
+  height: 25px;
+}
+#email {
+  width: 100%;
+  height: 25px;
+}
+
+textarea {
+  width: 100%;
+  height: 105px;
+  resize: vertical;
+  max-height: 110px;
+  font-size: 14px;
+  border-color: #dddddd;
+}
+input,
+textarea {
+  outline-color: #dddddd;
+}
+button {
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: teal;
+  color: white;
+  width: 70px;
+  height: 25px;
+}
+/* The container of portfolio.html's style */
+
+#container2 {
+  background: #ffffff;
+  width: 64%;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 12%;
+  border-color: #dddddd;
+  margin-top: 50px;
+}
+
+.portfolio {
+  overflow: auto;
+}
+
+.pf {
+  position: relative;
+  float: left;
+  text-align: center;
+}
+.pftitle {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: teal;
+  width: 94%;
+  height: 70px;
+  line-height: 70px;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+}
+.pftitle a {
+  color: white;
+  text-decoration: none;
+}
+.pftitle a:hover {
+  background-color: white;
+  color: teal;
+}
+
+img {
+  padding: 10px;
+  margin: 0px;
+  width: 320px;
+  height: 200px;
+  float: left;
+}
+
+/* Footer's style */
+
+#footer {
+  color: #ffffff;
+  background: gray;
+  height: 80px;
+  line-height: 100px;
+  text-align: center;
+  bottom: 0;
+  padding-bottom: 0;
+  border-top: 8px solid teal;
 }
 
 /* screen response based on size*/
@@ -63,5 +206,8 @@ body {
   .navbar-stuff {
     text-align: center;
     padding-bottom: 20px;
+  }
+  #profil {
+    width: 110%;
   }
 }
