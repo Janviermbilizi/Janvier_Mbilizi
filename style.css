@@ -36,21 +36,24 @@ body {
 .navbar-stuff {
   padding-top: 40px;
 }
-
+/*row style*/
+.row {
+  margin: auto;
+  /* margin-bottom: 7.5%;
+  margin-top: 100px; */
+}
 /* The container of Index.html and contact.html's style */
-#container {
+#containerAbout {
   background: #ffffff;
-  width: 60%;
+  width: 100%;
   margin: auto;
   padding: 40px;
-  margin-bottom: 9%;
   border-color: #dddddd;
-  margin-top: 50px;
   flex: 1 0 auto;
 }
 #profil {
-  width: 180px;
-  height: 220px;
+  width: 220px;
+  height: 270px;
   float: left;
   padding-right: 30px;
   padding-top: 30px;
@@ -67,7 +70,17 @@ p {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+/* links container*/
+#links {
+  background: #ffffff;
+  margin: auto;
+  border-color: #dddddd;
+  padding: 40px;
+}
+.linkImg {
+  width: 100px;
+  height: 100px;
+}
 /* The style for all the head title, About ME, Contact and Portfolio*/
 
 #title {
@@ -123,7 +136,7 @@ button {
 
 #container2 {
   background: #ffffff;
-  width: 64%;
+  width: 70%;
   margin: auto;
   padding: 20px;
   margin-bottom: 12%;
@@ -178,7 +191,7 @@ img {
   color: #ffffff;
   background: gray;
   height: 80px;
-  line-height: 100px;
+  line-height: 70px;
   text-align: center;
   bottom: 0;
   padding-bottom: 0;
@@ -199,6 +212,9 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
+  #containerAbout {
+    margin-top: 30px;
+  }
   .gree-box {
     width: 100%;
     margin-left: 0;
@@ -228,9 +244,6 @@ img {
   #profil {
     width: 200px;
   }
-  #container {
-    width: 100%;
-  }
   #container2 {
     width: 100%;
   }
@@ -239,9 +252,6 @@ img {
   }
 }
 @media only screen and (min-width: 768px) {
-  #container {
-    margin-left: 27px;
-  }
   #container2 {
     margin-left: 27px;
   }
