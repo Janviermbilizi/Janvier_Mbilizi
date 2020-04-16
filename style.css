@@ -241,8 +241,15 @@ img {
   .navbar-stuff {
     text-align: center;
   }
+  #Bio {
+    float: left;
+  }
   #profil {
-    width: 200px;
+    float: none;
+    justify-content: center;
+    width: 70%;
+    margin-left: 16%;
+    border-radius: 50%;
   }
   #container2 {
     width: 100%;
